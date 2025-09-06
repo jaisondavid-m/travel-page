@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+    <link title="image/png" rel="icon" href="logo.jpg">
+</head>
+<body>
+    <nav>
+      <a class="logo">Joy Travels</a>
+      <div class="nav-list">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="des.html">Destination</a></li>
+          <li><a href="cont.html">Contact</a></li>
+          <li><a href="abt.html">About</a></li>
+        </ul>
+      </div>
+      <a class="action">Fill The Page</a>
+    </nav>
+        <div>
+            <div id="book">
+                <h1>Booking Form</h1>
+            </div>
+            <div class="bookitem">
+               <form action="booked.html"> 
+                 <input type="text" placeholder="*Enter Your Name" class="input" required><br><br>
+                 <input type="text" placeholder="*City Of residence" class="input" required><br><br>
+                 <input type="number" placeholder="Phone Number" class="input" required><br><br>
+                 <input type="number" placeholder="Whatsapp Number" class="input" required><br><br>
+                 <input type="email" placeholder="Enter Your Email ID"class="input" required><br><br>
+                 <select id="selecting" name="selected-destination" style="width: 94%;" required>   <!--using it first time-->
+                     <option value="">-- Choose Your Destination --</option>
+                     <option value="europe">europe</option>
+                     <option value="france">france</option>
+                     <option value="switzerland">switzerland</option>
+                     <option value="southaferica">southaferica</option>
+                     <option value="japan">japan</option>
+                     <option value="singapore">singapore</option>
+                     <option value="malasiya">malasiya</option>
+                     <option value="srilanka">srilanka</option>
+                     <option value="dubai">dubai</option>
+                     <option value="qatar">qatar</option>
+                     <option value="saudiarabia">saudiarabia</option>
+                     <option value="bahrain">bahrain</option>
+                     <option value="australia">australia</option>
+                     <option value="newzealand">newzealand</option>
+                     <option value="melbourne">melbourne</option>
+                     <option value="figi">figi</option>
+                     <option value="spain">spain</option>
+                     <option value="austria">austria</option>
+                     <option value="greece">greece</option>
+                     <option value="italy">italy</option>
+                     <option value="ooty">ooty</option>
+                     <option value="kodaikanal">kodaikanal</option>
+                     <option value="yercaud">yercaud</option>
+                     <option value="kollihills">kollihills</option>
+                     <option value="goa">goa</option>
+                     <option value="marina">marina</option>
+                     <option value="maladives">maladives</option>
+                     <option value="pondicherry">pondicherry</option>
+                     <option value="elloracaves">elloracaves</option>
+                      <option value="dallake">dallake</option>
+                      <option value="lakshadweep">lakshadweep</option>
+                     <option value="lonarlake">lonarlake</option>
+                 </select> <br><br>
+                 <label style="font-size: 19px; margin-left: 20px;" >Enter Date of Travel</label><br></br>
+                 <input  placeholder="Date of Travel" type="date" class="input" required><br><br>
+                 <input type="number" placeholder="* no of persons" class="input" required><br>
+                 <div style="display: flex;"><input type="checkbox" style="font-size: 20px; margin-left: 20px;" required><p style="padding-left: 10px;">Terms and Conditions</p></div> <br>    
+                 <input type="submit" id="submit">
+               </form> 
+            </div>
+        </div>
+        <h2 id="bottom">We are waiting for Your Presence</h2>
+</body>
+</html>

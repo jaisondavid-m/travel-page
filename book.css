@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav-list ul li{
+    padding: 0px 25px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: orangered;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.logo{
+    font-size: 27px;
+}
+.nav-list ul li a{
+    transition: 0.5s;
+}
+.nav-list ul li a:hover{
+    color: orangered;
+    background-color: white;
+    padding: 8px 17px;
+    border-radius: 50px;
+}
+.action {
+    padding:9px 25px;
+    background-color: white;
+    color: orangered;
+    transition: 0.2s;
+    border-radius: 50px;
+}
+.action:hover{
+    font-size: 22px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+#book{
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 90px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 0;
+    background-color: orangered;
+    color: white;
+}
+.bookitem{
+    padding-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 40px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 0px 0px 25px 25px;
+}
+select,.input{
+    font-size: 22px;
+    padding-left: 10px;
+    margin-left: 18px;
+    width: 92%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+option{
+    text-transform: capitalize;
+}
+#submit{
+    background-color: orangered;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 40%;
+    transition: 0.3s;
+}
+#submit:hover{
+    background-color: white;
+    color: orangered;
+    font-size: 22px;
+    border-radius: 25px;
+}
+#bottom{
+    margin-top: 15px;
+    background-color: orangered;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+}

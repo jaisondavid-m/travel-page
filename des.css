@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav-list ul li{
+    padding: 0px 25px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: orangered;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.logo{
+    font-size: 27px;
+}
+.nav-list ul li a{
+    transition: 0.5s;
+}
+.nav-list ul li a:hover{
+    color: orangered;
+    background-color: white;
+    padding: 8px 17px;
+    border-radius: 50px;
+}
+.action {
+    padding:9px 25px;
+    background-color: white;
+    color: orangered;
+    transition: 0.2s;
+    border-radius: 50px;
+}
+.action:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    font-size: 22px;
+
+}
+h2{
+    height: 60px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.gallery img{
+    width: 180px;
+    height: 250px;
+    transition: 0.5s;
+}
+.gallery img:hover{
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    border: 4px solid blue;
+}
+#nan{
+    margin: 50px;
+    display: flex;
+}
+.tabs{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+td{
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+}
+#ooty{
+    transition: 0.5s;
+}
+#ooty:hover{
+    color: white;
+   background-image: url(ooty.avif);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#yercaud{
+    transition: 0.5s;
+}
+#yercaud:hover{
+    color: white;
+   background-image: url(yer.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#Kolli{
+    transition: 0.5s;
+}
+#kolli:hover{
+   color: black;
+   background-image: url(kolli.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#goa{
+    transition: 0.5s;
+}
+#goa:hover{
+   color: white;
+   background-image: url(goa.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#marina{
+    transition: 0.5s;
+}
+#marina:hover{
+   color: black;
+   background-image: url(marina.avif);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#mal{
+    transition: 0.5s;
+}
+#mal:hover{
+   color: white;
+   background-image: url(mal.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#pondi{
+    transition: 0.5s;
+}
+#pondi:hover{
+   color: black;
+   background-image: url(pondi.jpeg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#Ellora{
+    transition: 0.5s;
+}
+#Ellora:hover{
+   color: white;
+   background-image: url(ell.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#dal{
+    transition: 0.5s;
+}
+#dal:hover{
+   color: white;
+   background-image: url(dal.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#laks{
+    transition: 0.5s;
+}
+#laks:hover{
+   color: orange;
+   background-image: url(laks.webp);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#lonar{
+    transition: 0.5s;
+}
+#lonar:hover{
+   color: black;
+   background-image: url(kolli.jpg);
+   background-size: cover;
+   height: 130px;
+   width: 150px;
+}
+#kod{
+    transition: 0.5s;
+}
+#kod:hover{
+    color: black;
+    background-image: url(kodai.webp);
+    background-size: cover;
+    height: 130px;
+    width: 150px;
+}
