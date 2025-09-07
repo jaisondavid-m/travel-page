@@ -105,7 +105,7 @@ table{
 }
 #ooty:hover{
     color: white;
-   background-image: url(pic/ooty.avif);
+   background-image: url(ooty.avif);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -115,7 +115,7 @@ table{
 }
 #yercaud:hover{
     color: white;
-   background-image: url(pic/yer.jpg);
+   background-image: url(yer.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -125,7 +125,7 @@ table{
 }
 #kolli:hover{
    color: black;
-   background-image: url(pic/kolli.jpg);
+   background-image: url(kolli.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -135,7 +135,7 @@ table{
 }
 #goa:hover{
    color: white;
-   background-image: url(pic/goa.jpg);
+   background-image: url(goa.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -145,7 +145,7 @@ table{
 }
 #marina:hover{
    color: black;
-   background-image: url(pic/marina.avif);
+   background-image: url(marina.avif);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -155,7 +155,7 @@ table{
 }
 #mal:hover{
    color: white;
-   background-image: url(pic/mal.jpg);
+   background-image: url(mal.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -165,7 +165,7 @@ table{
 }
 #pondi:hover{
    color: black;
-   background-image: url(pic/pondi.jpeg);
+   background-image: url(pondi.jpeg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -175,7 +175,7 @@ table{
 }
 #Ellora:hover{
    color: white;
-   background-image: url(pic/ell.jpg);
+   background-image: url(ell.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -185,7 +185,7 @@ table{
 }
 #dal:hover{
    color: white;
-   background-image: url(pic/dal.jpg);
+   background-image: url(dal.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -195,7 +195,7 @@ table{
 }
 #laks:hover{
    color: orange;
-   background-image: url(pic/laks.webp);
+   background-image: url(laks.webp);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -205,7 +205,7 @@ table{
 }
 #lonar:hover{
    color: black;
-   background-image: url(pic/kolli.jpg);
+   background-image: url(kolli.jpg);
    background-size: cover;
    height: 130px;
    width: 150px;
@@ -215,7 +215,7 @@ table{
 }
 #kod:hover{
     color: black;
-    background-image: url(pic/kodai.webp);
+    background-image: url(kodai.webp);
     background-size: cover;
     height: 130px;
     width: 150px;
